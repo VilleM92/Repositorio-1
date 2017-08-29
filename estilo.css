@@ -5,15 +5,11 @@ img{
 	
 	
 }
-h1{
+h2{
 	text-align:center;
+	padding-top:100px;
+	font-size:5px;
 	font-family:arial;
-	font-size:5em;
-	color:red;
-	border:2px outset blue;
-	padding:0px;
-	margin:0px;
-	
 }
 body{
 	background-color:#84857c;
@@ -25,7 +21,7 @@ div{
 	 padding:50px;
 	 
 }
-nav a{
+nav a .nav-link active{
 	padding-right:10px;
 	font-family:arial;
 	font-size:0.8em;

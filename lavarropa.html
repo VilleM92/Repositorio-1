@@ -3,29 +3,44 @@
 <head>
 	<meta charset="UTF-8">
 	<title>MegaParts</title>
-	<link rel="stylesheet" href="estilo2.css">
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
 <div>
 
 	<header>
-		<nav id="barra">
-			<a href="index.html">Home</a>
-			<a href="productos.html">Productos</a>
-			<a href="quienes-somos.html">¿Quienes somos?</a>
-			<a href="contactos.html">Contactos</a>
+		<nav>
+			<a href="index.html" class="nav-link active" href="#">Home</a>
+			<a href="quienes-somos.html" class="nav-link active" href="#">¿Quienes somos?</a>
+			<a href="contactos.html" class="nav-link active" href="#">Contactos</a>
 		</nav>
 		
-		<img src="mp.jpg">
+		<a href="index.html"><img src="mp.jpg"></a>
 		
 	</header>
 	<section>
-		<nav id="productos">
-			<a href="televisor.html">televisor</a>
-			<a href="heladera.html">heladera</a>
-			<a href="lavarropa.html">lavarropa</a>
-			<a href="horno.html">horno</a>
-		</nav>
+
+				<table border="2px">
+				<tr width="100px">
+					<td><img src="lavarropa.jpg"></td>
+					<td><img src="lv1.jpg"></td>
+				</tr>
+				<tr>
+					<td><img src="lv2.jpg"></td>
+					<td><img src="lv3.jpg"></td>
+				</tr>
+			</table>
+						<table border="2px">
+				<tr width="100px">
+					<td><a href="televisor.html">Televisores</a></td>
+					<td><a href="heladera.html">Heladeras</a></td>
+				</tr>
+				<tr>
+					<td><a href="horno.html">Cocinas</a></td>
+					<td><a href="lavarropa.html">Lavarropas</a></td>
+				</tr>
+			</table>
 	</section>
 	<footer>
 		<!--Facebook-->

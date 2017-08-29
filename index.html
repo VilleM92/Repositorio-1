@@ -4,40 +4,59 @@
 	<meta charset="UTF-8">
 	<title>MegaParts</title>
 	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
 <div>
 
 	<header>
 		<nav>
-			<a href="index.html">Home</a>
-			<a href="productos.html">Productos</a>
-			<a href="quienes-somos.html">¿Quienes somos?</a>
-			<a href="contactos.html">Contactos</a>
+			<a href="index.html" class="nav-link active" href="#">Home</a>
+			<a href="quienes-somos.html" class="nav-link active" href="#">¿Quienes somos?</a>
+			<a href="contactos.html" class="nav-link active" href="#">Contactos</a>
 		</nav>
 		
-		<img src="mp.jpg">
+		<a href="index.html"><img src="mp.jpg"></a>
 		
 		
 		
 		<video src="video.mp4" autoplay muted loop controls></video>
 	</header>
 	<section>
+		<h2>Productos</h2>
 		<article>
-			<h2>Nuestro Comienzo</h2>
+			
 			<div id="tabla">
 			<table border="2px">
 				<tr width="100px">
-					<td><a href="productos.html">Televisores</a></td>
-					<td><a href="productos.html">Heladeras</a></td>
+					<td><a href="televisor.html">Televisores</a></td>
+					<td><a href="heladera.html">Heladeras</a></td>
 				</tr>
 				<tr>
-					<td><a href="productos.html">Cocinas</a></td>
-					<td><a href="productos.html">Lavarropas</a></td>
+					<td><a href="horno.html">Cocinas</a></td>
+					<td><a href="lavarropa.html">Lavarropas</a></td>
 				</tr>
 			</table>
 			</div>
 		</article>
+				<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 	</section>
 	<footer>
 		<!--Facebook-->

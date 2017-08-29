@@ -91,3 +91,10 @@ table{
 	width:200px;
 	height:150px;
 }
+#barra a:active{
+
+	background:white;
+	color:black;
+
+
+}
